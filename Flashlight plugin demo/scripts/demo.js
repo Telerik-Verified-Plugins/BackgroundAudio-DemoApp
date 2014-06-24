@@ -6,8 +6,8 @@
 
         isAvailable: function () {
             if (!this.checkSimulator()) {
-                window.plugins.flashlight.available(function(isAvailable) {
-                    navigator.notification.alert(isAvailable, null, 'Flashlight available?', 'Close');
+                window.plugins.flashlight.available(function(available) {
+                    alert(available ? "YES" : "NO");
                 });
             }
         },
