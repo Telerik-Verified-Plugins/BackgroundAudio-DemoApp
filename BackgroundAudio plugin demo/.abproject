@@ -1,0 +1,46 @@
+{
+  "ProjectGuid": "7304b6c2-53b8-466a-a537-01714efde514",
+  "AppIdentifier": "com.telerik.plugindemo.backgroundaudio",
+  "ProjectName": "BackgroundAudio plugin demo",
+  "IsRunnable": "true",
+  "ProjectTypeGuids": "{070BCB52-5A75-4F8C-A973-144AF0EAFCC9}",
+  "FrameworkVersion": "3.5.0",
+  "AndroidPermissions": [
+    "android.permission.CAMERA",
+    "android.permission.READ_PHONE_STATE",
+    "android.permission.INTERNET",
+    "android.permission.ACCESS_NETWORK_STATE"
+  ],
+  "CorePlugins": [
+    "org.apache.cordova.console",
+    "org.apache.cordova.device",
+    "org.apache.cordova.network-information",
+    "org.apache.cordova.dialogs",
+    "org.apache.cordova.splashscreen",
+    "org.apache.cordova.statusbar"
+  ],
+  "DeviceOrientations": [
+    "Portrait",
+    "Landscape"
+  ],
+  "iOSStatusBarStyle": "Default",
+  "AndroidHardwareAcceleration": "false",
+  "WP8SupportedResolutions": [
+    "ID_RESOLUTION_WVGA",
+    "ID_RESOLUTION_WXGA",
+    "ID_RESOLUTION_HD720P"
+  ],
+  "BundleVersion": "1.0",
+  "DisplayName": "BackgroundAudio plugin demo",
+  "Author": "Telerik",
+  "WP8TileTitle": "Flashlight",
+  "WP8ProductID": "{7304b6c2-53b8-466a-a537-01714efde514}",
+  "WP8PublisherID": "{9859a2b4-f0b5-461d-82e9-87a605fbd221}",
+  "WP8Publisher": "Telerik",
+  "WP8Capabilities": [
+    "ID_CAP_ISV_CAMERA",
+    "ID_CAP_MICROPHONE"
+  ],
+  "Framework": "Cordova",
+  "Description": "BackgroundAudio plugin demo"
+}

@@ -28,16 +28,17 @@
         <div class="logo-image-wrapper">
   	      <div class="logo-image"></div>            
         </div>
-        <h3>Flashlight Plugin Demo</h3>
+        <h3>BackgroundAudio Plugin Demo</h3>
         <p>
-            The Flashlight plugin allows you to switch the flashlight / torch of the device on and off.
+            Allows your app to keep on playing audio when it's in the background.
+            There is no additional configuration or Javascript call required to trigger the plugin.
         </p>
         <p>
-            You can test beforehand whether or not the device has a flashlight.
+            Only iOS is supported.
         </p>
         <p>
             Custom plugins don't work in the simulator and the AppBuilder companion app,
-            so inside Telerik AppBuilder choose Run - Build - iOS/Android/WP8 - App package.
+            so inside Telerik AppBuilder choose Run - Build - iOS - App package.
         </p>
     </div>
 
@@ -48,14 +49,15 @@
         data-model="app.demoService.viewModel">
 
         <div class="demo">
-            <h3>Check availability</h3>
-            <button data-role="button" class="button" data-bind="click: isAvailable">Is a flashlight available?</button>
+            <h3 class="hassubtitle">Play an audio stream</h3>
+            <div class="subtitle">
+                After clicking 'Play' press the home button of your device - the audio should keep on playing.
+            </div>
+            <button data-role="button" class="button" data-bind="click: play">Play</button>
 
             <br/>
-            <h3>Use the flashlight</h3>
-            <button data-role="button" class="button" data-bind="click: switchOn">Switch ON</button>
-            <button data-role="button" class="button" data-bind="click: switchOff">Switch OFF</button>
-            <button data-role="button" class="button" data-bind="click: toggle">Toggle ON/OFF</button>
+            <h3>Stop playing the audio stream</h3>
+            <button data-role="button" class="button" data-bind="click: stop">Stop</button>
         </div>
     </div>
 
