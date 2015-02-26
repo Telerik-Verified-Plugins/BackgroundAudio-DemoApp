@@ -4,7 +4,7 @@
   "ProjectName": "BackgroundAudio plugin demo",
   "IsRunnable": "true",
   "ProjectTypeGuids": "{070BCB52-5A75-4F8C-A973-144AF0EAFCC9}",
-  "FrameworkVersion": "3.5.0",
+  "FrameworkVersion": "3.7.0",
   "AndroidPermissions": [
     "android.permission.CAMERA",
     "android.permission.READ_PHONE_STATE",
@@ -42,5 +42,6 @@
     "ID_CAP_MICROPHONE"
   ],
   "Framework": "Cordova",
-  "Description": "BackgroundAudio plugin demo"
+  "Description": "BackgroundAudio plugin demo",
+  "projectVersion": "1"
 }
